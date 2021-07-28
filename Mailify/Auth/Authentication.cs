@@ -10,7 +10,7 @@ namespace Mailify
         {
             Utilities.GetColors();
             Utilities.GetColor();
-            Console.Title = $"Mailify [{Variables.version}] - Made by YoBoi";
+            Console.Title = $"Mailify [{Variables.version}] - Made by YoBoi - Unlocked by Lau";
             Menu.mainmenu();
         }
     }

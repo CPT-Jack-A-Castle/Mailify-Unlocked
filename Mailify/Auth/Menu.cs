@@ -746,7 +746,8 @@ namespace Mailify
         }
         public static void Addons()
         {
-            if (Convert.ToInt32(User.Rank) == 5)
+            //if (Convert.ToInt32(User.Rank) == 5)
+            if (true)
             {
             ight:
                 WriteTitle();
@@ -847,7 +848,7 @@ namespace Mailify
         }
         public static void prefunc()
         {
-            Console.Title = $"Mailify [{Variables.version}] - Made by YoBoi";
+            Console.Title = $"Mailify [{Variables.version}] - Made by YoBoi - Unlocked by Lau";
             Console.ForegroundColor = Color.White;
             Mailify.Config.parseconfig();
             Variables.OGNAMES = File.ReadAllLines("Files//MC_OG Names.txt");
